@@ -1,6 +1,6 @@
 import './Education.css'
 
-const RESUME = 'https://drive.google.com/file/d/1i0_-NqhBnZN7weuAREYEqmX7w_IytMGq/view?usp=drive_link'
+const RESUME = 'https://drive.google.com/file/d/1gvtbD29XSfPWlFhrKgjJpiJ7yWwBVQwf/view?usp=drive_link'
 
 const education = [
   {

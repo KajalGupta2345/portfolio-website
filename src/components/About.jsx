@@ -2,7 +2,7 @@ import './About.css'
 
 const LEETCODE = 'https://leetcode.com/u/Kajal_Gupta_85/'
 const GFG = 'https://www.geeksforgeeks.org/profile/kk234xww3'
-const RESUME = 'https://drive.google.com/file/d/1i0_-NqhBnZN7weuAREYEqmX7w_IytMGq/view?usp=drive_link'
+const RESUME = 'https://drive.google.com/file/d/1gvtbD29XSfPWlFhrKgjJpiJ7yWwBVQwf/view?usp=drive_link'
 
 const highlights = [
   {
@@ -46,7 +46,7 @@ function About() {
             </p>
             <p className="about__para">
               My focus is backend systems and distributed architecture, but I
-              genuinely enjoy frontend too. I've been diving deep into AI/GenAI tooling —
+              genuinely enjoy frontend too. I've been diving into AI/GenAI tooling —
               LangChain, RAG, vector databases — because I think the most interesting
               engineering challenges of the next few years live at that intersection.
             </p>

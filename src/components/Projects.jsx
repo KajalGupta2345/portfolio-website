@@ -8,7 +8,7 @@ const projects = [
     tagline: 'Production-grade distributed backend with AI shopping assistant',
     stack: ['Node.js', 'Express', 'MongoDB', 'Redis', 'RabbitMQ', 'LangChain', 'Docker', 'AWS ECS'],
     highlights: [
-      '9 independently deployable microservices (Auth, Product, Cart, Order, Payment, Notification, Seller, AI Buddy) with separate databases per service',
+      '8 independently deployable microservices (Auth, Product, Cart, Order, Payment, Notification, Seller, AI Buddy) with separate databases per service',
       'AI shopping assistant using LangChain, Gemini & LangGraph with real-time chat via Socket.io',
       'Event-driven inter-service messaging with RabbitMQ for async workflows (order created, email notifications)',
       'JWT auth with Redis-based token blacklisting for stateless yet revocable sessions',
@@ -30,7 +30,7 @@ const projects = [
       'Real-time bi-directional messaging via Socket.IO with JWT session auth and secure cookie management',
       'Responsive React.js & Tailwind CSS frontend with optimized component rendering',
     ],
-    github: 'https://github.com/KajalGupta2345/GPT-Clone---ZORO-2',
+    github: 'https://github.com/KajalGupta2345/Real-Time-Chat-Application-With-Memory-System',
     live: null,
     badge: 'AI / GenAI',
     badgeColor: '#f76aab',
