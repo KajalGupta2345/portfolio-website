@@ -91,12 +91,13 @@ ssh-keygen -t ed25519 -C "personal@gmail.com" -f ~/.ssh/id_ed25519_personal
 ssh-keygen -t ed25519 -C "work@company.com" -f ~/.ssh/id_ed25519_work
 ```
 
+
 # 🔐 Difference Between HTTPS and SSH in GitHub
 
 | Feature           | HTTPS                                  | SSH                                              |
 | ----------------- | -------------------------------------- | ------------------------------------------------ |
 | Full Form         | HyperText Transfer Protocol Secure     | Secure Shell                                     |
-| Authentication    | Username + Personal Access Token (PAT) | SSH Key Pair                                     |
+| Authentication    | GitHub Account Authentication          | SSH Key Pair                                     |
 | Login Requirement | Credentials enter karne pad sakte hain | One-time SSH setup ke baad login ki zarurat nahi |
 | Security          | Secure                                 | More Secure                                      |
 | Setup             | Easy                                   | Thoda complex                                    |
@@ -110,7 +111,7 @@ ssh-keygen -t ed25519 -C "work@company.com" -f ~/.ssh/id_ed25519_work
 
 ### Definition
 
-HTTPS GitHub repositories ko access karne ka ek method hai jisme username aur Personal Access Token (PAT) ke through authentication hoti hai.
+HTTPS GitHub repositories ko access karne ka ek method hai jisme internet ke through secure connection establish kiya jata hai.
 
 ### Example
 
@@ -139,14 +140,13 @@ git clone git@github.com:username/repository.git
 * Beginners ke liye
 * Quick setup ke liye
 * Temporary systems par
+* Jab SSH setup nahi kiya ho
 
 ### Example
 
 ```bash
 git push origin main
 ```
-
-Authentication PAT se hogi.
 
 ---
 
@@ -162,8 +162,6 @@ Authentication PAT se hogi.
 ```bash
 git push origin main
 ```
-
-Authentication SSH key se hogi.
 
 ---
 
@@ -181,6 +179,7 @@ https://github.com/KajalGupta2345/FoodieHub-.git
 git@github.com:KajalGupta2345/FoodieHub-.git
 ```
 
-
 ---
 
+
+HTTPS uses a secure web connection to access GitHub repositories, while SSH uses SSH keys for authentication. HTTPS is easier to set up, whereas SSH is more secure and convenient for frequent Git operations, automation, CI/CD pipelines, and managing multiple GitHub accounts. 🚀
