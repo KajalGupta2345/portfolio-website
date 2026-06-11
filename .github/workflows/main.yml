@@ -1,0 +1,22 @@
+name: portfolio website
+
+on: 
+ push:
+   branches: [ main ]
+
+jobs:
+  build-react-app:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6.0.3
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v6.4.0
+        with:
+             node-version: 22.x
+      - name: Install Dependencies
+        run: npm install
+      - name: Build React App
+        run: npm run build
+          
